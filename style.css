@@ -13,3 +13,27 @@
     padding: 20px;
     text-align: center;
 }
+
+/* CONTAINER */
+.container {
+    background: url('img/cork.png');
+    width: 100%;
+    display: flex;
+    padding: 20px;
+
+
+
+}
+
+.card-container {
+    background: white;
+    padding: 10px;
+    position: relative;
+}
+
+/* PIN */
+.pin {
+    position: absolute;
+    left: 50%;
+    top: -2%;
+}
