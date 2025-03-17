@@ -22,8 +22,7 @@ axios.get(img)
                      <h4>${element.title}</h4>
             </div>
         </div>`;
-            console.log(image)
-
+            // console.log(image)
         })
         cardContainer.innerHTML = image
     });
@@ -39,6 +38,10 @@ console.log(overlayImage);
 
 const buttonOver = document.getElementById('button-over');
 console.log(buttonOver);
+
+buttonOver.addEventListener('click', () => {
+    console.log('ho clickato il bottone')
+})
 
 
 
