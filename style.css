@@ -16,29 +16,40 @@
 
 /* CONTAINER */
 .container {
-    background: url('img/cork.png');
-    width: 100%;
-    display: flex;
+    background-image: url('img/cork.png');
+    max-width: 100%;
     padding: 20px;
-
-
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
+
+/* CARD CONATINER */
 .card-container {
     background: white;
     padding: 10px;
     position: relative;
-    width: 300px;
-    height: 300px;
+    max-width: 500px;
+    height: 350px;
+    width: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
-.card-container img {}
+
+.description {
+    font-family: "Sometype Mono";
+    margin-top: 5px;
+}
+
 
 /* PIN */
 .pin {
     position: absolute;
     left: 50%;
     top: -2%;
-
 }
