@@ -42,9 +42,12 @@
 
 
 .description {
-    font-family: "Sometype Mono";
+    font-family: "Edu TAS Beginner";
     margin-top: 5px;
+    text-transform: uppercase;
+
 }
+
 
 
 /* PIN */
@@ -53,6 +56,33 @@
     left: 50%;
     top: -2%;
 }
+
+/* OVERLAY */
+.button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.overlay {
+    position: relative;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#button-over {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 
 /* MEDIA  */
